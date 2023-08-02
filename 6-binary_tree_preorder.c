@@ -4,6 +4,11 @@
  * binary_tree_preorder - Goes through a binary tree using pre-order traversal
  * @tree: Root Node
  * @func: function pointer to be called for each node
+ * Description - In pre-order traversal, the current node is processed first,
+ * then the left subtree, and finally the right subtree.
+ * The process for pre-order traversal is: Process the current node,
+ * then recursively traverse the left subtree,
+ * and then recursively traverse the right subtree.
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
