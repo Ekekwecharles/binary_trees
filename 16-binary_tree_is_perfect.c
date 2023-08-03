@@ -55,10 +55,11 @@ size_t binary_tree_height(const binary_tree_t *tree)
 /**
  * binary_tree_is_perfect - checks if a binary tree is perfect
  * @tree: a pointer to the root node of the tree to check
- * Description - A binary tree is perfect if all its levels are completely filled,
- * and all the leaf nodes are at the same level. Additionally, for a perfect
- * binary tree, the number of nodes at each level is a power of 2.
-i * Return: 1 if its perfect 0 other wise
+ * Description - A binary tree is perfect if all its levels are completely
+ * filled, and all the leaf nodes are at the same level. Additionally,
+ * for a perfect binary tree, the number of nodes at each level
+ * is a power of 2.
+ * Return: 1 if its perfect 0 other wise
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
